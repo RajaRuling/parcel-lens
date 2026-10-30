@@ -1,0 +1,45 @@
+{
+  "images": 4800,
+  "unique_seeds": 4800,
+  "unique_file_hashes": 4800,
+  "split_counts": {
+    "train": 2400,
+    "validation": 600,
+    "test": 900,
+    "shift": 900
+  },
+  "nuisance_counts": {
+    "train": {
+      "dim_0": 395,
+      "dim_1": 405,
+      "neutral_0": 392,
+      "neutral_1": 408,
+      "bright_0": 413,
+      "bright_1": 387
+    },
+    "validation": {
+      "dim_0": 112,
+      "dim_1": 88,
+      "neutral_0": 98,
+      "neutral_1": 102,
+      "bright_0": 90,
+      "bright_1": 110
+    },
+    "test": {
+      "dim_0": 155,
+      "dim_1": 145,
+      "neutral_0": 142,
+      "neutral_1": 158,
+      "bright_0": 153,
+      "bright_1": 147
+    },
+    "shift": {
+      "dim_0": 153,
+      "dim_1": 147,
+      "neutral_0": 160,
+      "neutral_1": 140,
+      "bright_0": 137,
+      "bright_1": 163
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "shared_scanner_targeted_text_files": 51,
+  "damaged_parcel_findings": [],
+  "global_command_executed": true,
+  "global_command_result": "failed on unrelated sibling-project raw/temporary data; outside authorized edit scope",
+  "outside_scope_files_changed": false
+}

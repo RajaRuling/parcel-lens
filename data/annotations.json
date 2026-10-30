@@ -1,0 +1,710 @@
+{
+  "schema": "xyxy pixel bounds, exclusive right and bottom",
+  "size": [
+    640,
+    440
+  ],
+  "generator": "procedural illustration v1",
+  "records": [
+    {
+      "id": "development_00",
+      "file": "images/development_00.png",
+      "split": "development",
+      "seed": 4100,
+      "synthetic": true,
+      "difficult": false,
+      "objects": [
+        {
+          "label": "dent_crush",
+          "box": [
+            325,
+            231,
+            434,
+            280
+          ]
+        }
+      ]
+    },
+    {
+      "id": "development_01",
+      "file": "images/development_01.png",
+      "split": "development",
+      "seed": 4101,
+      "synthetic": true,
+      "difficult": false,
+      "objects": [
+        {
+          "label": "tear_puncture",
+          "box": [
+            269,
+            197,
+            380,
+            238
+          ]
+        }
+      ]
+    },
+    {
+      "id": "development_02",
+      "file": "images/development_02.png",
+      "split": "development",
+      "seed": 4102,
+      "synthetic": true,
+      "difficult": false,
+      "objects": [
+        {
+          "label": "water_stain",
+          "box": [
+            380,
+            178,
+            449,
+            243
+          ]
+        }
+      ]
+    },
+    {
+      "id": "development_03",
+      "file": "images/development_03.png",
+      "split": "development",
+      "seed": 4103,
+      "synthetic": true,
+      "difficult": false,
+      "objects": [
+        {
+          "label": "open_flap",
+          "box": [
+            235,
+            102,
+            382,
+            141
+          ]
+        }
+      ]
+    },
+    {
+      "id": "development_04",
+      "file": "images/development_04.png",
+      "split": "development",
+      "seed": 4104,
+      "synthetic": true,
+      "difficult": false,
+      "objects": [
+        {
+          "label": "crushed_corner",
+          "box": [
+            467,
+            315,
+            530,
+            357
+          ]
+        }
+      ]
+    },
+    {
+      "id": "development_05",
+      "file": "images/development_05.png",
+      "split": "development",
+      "seed": 4105,
+      "synthetic": true,
+      "difficult": false,
+      "objects": []
+    },
+    {
+      "id": "development_06",
+      "file": "images/development_06.png",
+      "split": "development",
+      "seed": 4106,
+      "synthetic": true,
+      "difficult": false,
+      "objects": [
+        {
+          "label": "dent_crush",
+          "box": [
+            380,
+            242,
+            465,
+            285
+          ]
+        }
+      ]
+    },
+    {
+      "id": "development_07",
+      "file": "images/development_07.png",
+      "split": "development",
+      "seed": 4107,
+      "synthetic": true,
+      "difficult": false,
+      "objects": [
+        {
+          "label": "tear_puncture",
+          "box": [
+            360,
+            241,
+            467,
+            282
+          ]
+        }
+      ]
+    },
+    {
+      "id": "development_08",
+      "file": "images/development_08.png",
+      "split": "development",
+      "seed": 4108,
+      "synthetic": true,
+      "difficult": false,
+      "objects": [
+        {
+          "label": "water_stain",
+          "box": [
+            261,
+            213,
+            370,
+            260
+          ]
+        }
+      ]
+    },
+    {
+      "id": "development_09",
+      "file": "images/development_09.png",
+      "split": "development",
+      "seed": 4109,
+      "synthetic": true,
+      "difficult": false,
+      "objects": [
+        {
+          "label": "open_flap",
+          "box": [
+            243,
+            89,
+            400,
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test_00",
+      "file": "images/test_00.png",
+      "split": "test",
+      "seed": 92000,
+      "synthetic": true,
+      "difficult": false,
+      "objects": [
+        {
+          "label": "dent_crush",
+          "box": [
+            327,
+            222,
+            392,
+            263
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test_01",
+      "file": "images/test_01.png",
+      "split": "test",
+      "seed": 92001,
+      "synthetic": true,
+      "difficult": false,
+      "objects": [
+        {
+          "label": "tear_puncture",
+          "box": [
+            230,
+            195,
+            327,
+            238
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test_02",
+      "file": "images/test_02.png",
+      "split": "test",
+      "seed": 92002,
+      "synthetic": true,
+      "difficult": false,
+      "objects": [
+        {
+          "label": "water_stain",
+          "box": [
+            240,
+            236,
+            345,
+            287
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test_03",
+      "file": "images/test_03.png",
+      "split": "test",
+      "seed": 92003,
+      "synthetic": true,
+      "difficult": false,
+      "objects": [
+        {
+          "label": "open_flap",
+          "box": [
+            260,
+            98,
+            373,
+            137
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test_04",
+      "file": "images/test_04.png",
+      "split": "test",
+      "seed": 92004,
+      "synthetic": true,
+      "difficult": false,
+      "objects": [
+        {
+          "label": "crushed_corner",
+          "box": [
+            453,
+            300,
+            522,
+            358
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test_05",
+      "file": "images/test_05.png",
+      "split": "test",
+      "seed": 92005,
+      "synthetic": true,
+      "difficult": false,
+      "objects": []
+    },
+    {
+      "id": "test_06",
+      "file": "images/test_06.png",
+      "split": "test",
+      "seed": 92006,
+      "synthetic": true,
+      "difficult": false,
+      "objects": [
+        {
+          "label": "dent_crush",
+          "box": [
+            379,
+            202,
+            458,
+            251
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test_07",
+      "file": "images/test_07.png",
+      "split": "test",
+      "seed": 92007,
+      "synthetic": true,
+      "difficult": false,
+      "objects": [
+        {
+          "label": "tear_puncture",
+          "box": [
+            268,
+            184,
+            351,
+            231
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test_08",
+      "file": "images/test_08.png",
+      "split": "test",
+      "seed": 92008,
+      "synthetic": true,
+      "difficult": false,
+      "objects": [
+        {
+          "label": "water_stain",
+          "box": [
+            301,
+            219,
+            374,
+            286
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test_09",
+      "file": "images/test_09.png",
+      "split": "test",
+      "seed": 92009,
+      "synthetic": true,
+      "difficult": false,
+      "objects": [
+        {
+          "label": "open_flap",
+          "box": [
+            252,
+            96,
+            395,
+            135
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test_10",
+      "file": "images/test_10.png",
+      "split": "test",
+      "seed": 92010,
+      "synthetic": true,
+      "difficult": false,
+      "objects": [
+        {
+          "label": "crushed_corner",
+          "box": [
+            481,
+            313,
+            535,
+            360
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test_11",
+      "file": "images/test_11.png",
+      "split": "test",
+      "seed": 92011,
+      "synthetic": true,
+      "difficult": false,
+      "objects": []
+    },
+    {
+      "id": "test_12",
+      "file": "images/test_12.png",
+      "split": "test",
+      "seed": 92012,
+      "synthetic": true,
+      "difficult": false,
+      "objects": [
+        {
+          "label": "dent_crush",
+          "box": [
+            307,
+            178,
+            422,
+            243
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test_13",
+      "file": "images/test_13.png",
+      "split": "test",
+      "seed": 92013,
+      "synthetic": true,
+      "difficult": false,
+      "objects": [
+        {
+          "label": "tear_puncture",
+          "box": [
+            229,
+            222,
+            336,
+            279
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test_14",
+      "file": "images/test_14.png",
+      "split": "test",
+      "seed": 92014,
+      "synthetic": true,
+      "difficult": false,
+      "objects": [
+        {
+          "label": "water_stain",
+          "box": [
+            391,
+            251,
+            474,
+            316
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test_15",
+      "file": "images/test_15.png",
+      "split": "test",
+      "seed": 92015,
+      "synthetic": true,
+      "difficult": false,
+      "objects": [
+        {
+          "label": "open_flap",
+          "box": [
+            245,
+            100,
+            400,
+            139
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test_16",
+      "file": "images/test_16.png",
+      "split": "test",
+      "seed": 92016,
+      "synthetic": true,
+      "difficult": false,
+      "objects": [
+        {
+          "label": "crushed_corner",
+          "box": [
+            473,
+            317,
+            548,
+            360
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test_17",
+      "file": "images/test_17.png",
+      "split": "test",
+      "seed": 92017,
+      "synthetic": true,
+      "difficult": false,
+      "objects": []
+    },
+    {
+      "id": "test_18",
+      "file": "images/test_18.png",
+      "split": "test",
+      "seed": 92018,
+      "synthetic": true,
+      "difficult": true,
+      "objects": [
+        {
+          "label": "dent_crush",
+          "box": [
+            219,
+            279,
+            328,
+            340
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test_19",
+      "file": "images/test_19.png",
+      "split": "test",
+      "seed": 92019,
+      "synthetic": true,
+      "difficult": true,
+      "objects": [
+        {
+          "label": "tear_puncture",
+          "box": [
+            225,
+            259,
+            322,
+            316
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test_20",
+      "file": "images/test_20.png",
+      "split": "test",
+      "seed": 92020,
+      "synthetic": true,
+      "difficult": true,
+      "objects": [
+        {
+          "label": "water_stain",
+          "box": [
+            244,
+            222,
+            335,
+            277
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test_21",
+      "file": "images/test_21.png",
+      "split": "test",
+      "seed": 92021,
+      "synthetic": true,
+      "difficult": true,
+      "objects": [
+        {
+          "label": "open_flap",
+          "box": [
+            261,
+            100,
+            372,
+            139
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test_22",
+      "file": "images/test_22.png",
+      "split": "test",
+      "seed": 92022,
+      "synthetic": true,
+      "difficult": true,
+      "objects": [
+        {
+          "label": "crushed_corner",
+          "box": [
+            503,
+            310,
+            549,
+            356
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test_23",
+      "file": "images/test_23.png",
+      "split": "test",
+      "seed": 92023,
+      "synthetic": true,
+      "difficult": true,
+      "objects": []
+    },
+    {
+      "id": "test_24",
+      "file": "images/test_24.png",
+      "split": "test",
+      "seed": 92024,
+      "synthetic": true,
+      "difficult": true,
+      "objects": [
+        {
+          "label": "dent_crush",
+          "box": [
+            336,
+            274,
+            421,
+            323
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test_25",
+      "file": "images/test_25.png",
+      "split": "test",
+      "seed": 92025,
+      "synthetic": true,
+      "difficult": true,
+      "objects": [
+        {
+          "label": "tear_puncture",
+          "box": [
+            171,
+            201,
+            278,
+            260
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test_26",
+      "file": "images/test_26.png",
+      "split": "test",
+      "seed": 92026,
+      "synthetic": true,
+      "difficult": true,
+      "objects": [
+        {
+          "label": "water_stain",
+          "box": [
+            164,
+            200,
+            231,
+            263
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test_27",
+      "file": "images/test_27.png",
+      "split": "test",
+      "seed": 92027,
+      "synthetic": true,
+      "difficult": true,
+      "objects": [
+        {
+          "label": "open_flap",
+          "box": [
+            271,
+            96,
+            378,
+            135
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test_28",
+      "file": "images/test_28.png",
+      "split": "test",
+      "seed": 92028,
+      "synthetic": true,
+      "difficult": true,
+      "objects": [
+        {
+          "label": "crushed_corner",
+          "box": [
+            470,
+            304,
+            529,
+            367
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test_29",
+      "file": "images/test_29.png",
+      "split": "test",
+      "seed": 92029,
+      "synthetic": true,
+      "difficult": true,
+      "objects": []
+    }
+  ]
+}

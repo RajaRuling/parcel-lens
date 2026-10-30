@@ -1,0 +1,26 @@
+[
+  {
+    "width": 390,
+    "javascript_errors": [],
+    "external_requests": 0,
+    "horizontal_overflow": false,
+    "scenes_checked": 39,
+    "claims_checked": 5,
+    "models_checked": 8,
+    "splits_checked": 2,
+    "threshold_control": true,
+    "local_evidence_links": true
+  },
+  {
+    "width": 1280,
+    "javascript_errors": [],
+    "external_requests": 0,
+    "horizontal_overflow": false,
+    "scenes_checked": 39,
+    "claims_checked": 5,
+    "models_checked": 8,
+    "splits_checked": 2,
+    "threshold_control": true,
+    "local_evidence_links": true
+  }
+]

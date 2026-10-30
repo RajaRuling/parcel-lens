@@ -1,0 +1,25 @@
+{
+  "winner": "linear_r0.001",
+  "thresholds": {
+    "linear_r0.001": 0.3546285830551045,
+    "linear_r0.01": 0.3101324963796029,
+    "neural32_r0.001": 0.304572706553615,
+    "neural32_r0.01": 0.2880689771938739,
+    "ablate_spatial": 0.3115072058645974,
+    "ablate_normalization": 0.3006527342766658,
+    "always_review": 0.5,
+    "classical": 0.5
+  },
+  "selection": "validation F1, then AUC, then simpler head",
+  "seed": 20261029,
+  "bootstrap_resamples": 1000,
+  "plan_sha256": "ba0a371484ea687a5e50946ed68a503be32cf7d0e0d82b7eb426764302475f1b",
+  "model_sha256": {
+    "ablate_normalization.npz": "12c88e72372b1fb59913b610ca692ee8dbc2e32ac0fa21c318b5469470effa79",
+    "ablate_spatial.npz": "39d565fe0b1d4490464780b59fe8449631f168d7faad68b27fc94585b0e03c6b",
+    "linear_r0.001.npz": "2233baa5c26db4e48ff886bfd5091e0ef784f5fd7d49a3f6e148803b1672ca0c",
+    "linear_r0.01.npz": "35455fea22f8dd0c1bec1eb65c2a41b28744524f313211e74327548a3ff15f8b",
+    "neural32_r0.001.npz": "775d544313aa871f5b5aff1efc9306e102b0d0c5398d362b7e3c89d5b21025bf",
+    "neural32_r0.01.npz": "712b077d03edd461175ca23249f07fcf786237ca41023806383f40efb5a2be8c"
+  }
+}

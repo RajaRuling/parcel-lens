@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.browser-home/
+.browser-tmp/
+data/v2/images/

@@ -1,0 +1,12 @@
+{
+  "source_images_hash_verified": 4800,
+  "unique_source_seeds": 4800,
+  "unique_image_hashes": 4800,
+  "model_hashes_verified": 6,
+  "site_json_matches_measured_results": true,
+  "gallery_images_and_loaded_model_scores_verified": 39,
+  "point_metrics_recomputed_from_frozen_scores": true,
+  "reproduction": "identical scores, point metrics, intervals, claims, thresholds and records",
+  "no_model_refit": true,
+  "external_requests": 0
+}

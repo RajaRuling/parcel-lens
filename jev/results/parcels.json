@@ -1,0 +1,93 @@
+{
+ "n": 150,
+ "failed_calls": 0,
+ "auc": [
+  0.7569777777777777,
+  0.6786666666666666,
+  0.8267555555555556
+ ],
+ "precision": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "recall": [
+  0.17333333333333334,
+  0.10666666666666667,
+  0.26666666666666666
+ ],
+ "clean_false_alarms_per_1000": [
+  0.0,
+  0.0,
+  0.0
+ ],
+ "accuracy": 0.5866666666666667,
+ "local_auc": [
+  0.9607111111111111,
+  0.9324444444444444,
+  0.9854222222222222
+ ],
+ "local_recall": 0.92,
+ "local_false_alarms_per_1000": 173.33333333333334,
+ "auc_local_minus_jev": [
+  0.20373333333333332,
+  0.1307555555555555,
+  0.28346666666666664
+ ],
+ "box_n_damaged": 75,
+ "iou_median": [
+  0.5351915958428956,
+  0.4879247058823529,
+  0.6019584736587084
+ ],
+ "iou_share_ge_0.5": [
+  0.5866666666666667,
+  0.4666666666666667,
+  0.7066666666666667
+ ],
+ "iou_mean": 0.47294472628652956,
+ "iou_median_centre_guess": 0.06892304838269173,
+ "clean_boxes_returned": 75,
+ "clean_n": 75,
+ "clean_presence_says_no": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "box_confidence_mean_clean_vs_damaged": [
+  0.18853333333333333,
+  0.3942666666666666
+ ],
+ "box_confidence_auc_damaged_vs_clean": 0.8015111111111111,
+ "pipeline_damaged_found_with_box_ge_0.5": 0.13333333333333333,
+ "pipeline_false_boxes_on_clean_per_1000": 0.0,
+ "latency": {
+  "p50": 0.1480385899922112,
+  "p95": 0.26087945125254924,
+  "n": 300,
+  "ok_share": 1.0
+ },
+ "tokens": {
+  "mean_input": 698.5,
+  "sum_input": 209550,
+  "sum_output": 7650
+ },
+ "examples": [
+  [
+   "example_1_test_0004.png",
+   "IoU 0.60; presence says no"
+  ],
+  [
+   "example_2_test_0159.png",
+   "IoU 0.89; presence says no"
+  ],
+  [
+   "example_3_test_0093.png",
+   "IoU 0.00; presence says no"
+  ],
+  [
+   "example_4_test_0021.png",
+   "clean image: box returned anyway; presence says no"
+  ]
+ ]
+}

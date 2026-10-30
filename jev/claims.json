@@ -1,0 +1,63 @@
+{
+  "registered": "2026-10-30, before any image was sent to Jev",
+  "design": {
+    "parcels": "150 images from the parcel-lens version 2 standard test split (75 damaged, 75 clean), random.Random(20261030) sample, never used for tuning; one fixed prompt, no iteration",
+    "bins": "150 bins from the bin-replenish-lab test split (50 empty, 100 non-empty drawn uniformly from classes low/medium/high), random.Random(20261030); one fixed prompt, no iteration; truth = inventory-record class",
+    "model": "jev-1.14.0 with header TypeSafe-Danger-Zone-Images; at most 5 unscored format-check calls on images outside the samples",
+    "ci": "bootstrap 1000 resamples, seed 7, percentile 95 percent; stratified by label where classes are balanced by design",
+    "budget": "at most 700 HTTP calls in total; abort on 5 consecutive 429s",
+    "deviation_before_scoring": "Native 224x168 parcel PNGs were refused by the API (HTTP 400 'Invalid image dimensions.', 2 unscored calls on train_0000). All parcel images are sent upscaled 2x (448x336 bicubic); the one unscored call at 2x was accepted. Total unscored format-check calls: 3 (limit 5). Bins: one 398x272 photo (id 13582) was refused for dimensions after the first scored call; rule added before any further bin was sent: photos with shorter side <336 px are enlarged to 336 (bicubic). The refused call is kept in calls.jsonl."
+  },
+  "claims": [
+    {
+      "id": "P1",
+      "text": "Presence question (typed yes/no choice, score = P(yes)): AUC >= 0.80 with CI low >= 0.70.",
+      "threshold": "AUC>=0.80 and CI low>=0.70"
+    },
+    {
+      "id": "P2",
+      "text": "At the model's own answer (yes/no), recall of damaged >= 0.80 and clean false alarms <= 150 per 1,000.",
+      "threshold": "recall>=0.80 and FA<=150"
+    },
+    {
+      "id": "P3",
+      "text": "Box on damaged images: median IoU with the generator's damage box >= 0.50.",
+      "threshold": "median IoU>=0.50"
+    },
+    {
+      "id": "P4",
+      "text": "Box on damaged images: share with IoU >= 0.5 is at least 50 percent.",
+      "threshold": "share>=0.50"
+    },
+    {
+      "id": "P5",
+      "text": "Presence-first: on clean images the presence step says 'no' (so no false box is raised) at least 80 percent of the time. The box step alone always returns a box (reported as 100 percent of clean images if so).",
+      "threshold": "avoided>=0.80"
+    },
+    {
+      "id": "P6",
+      "text": "The local trained model beats Jev zero-shot on AUC on the same 150 images by >= 0.05 (paired CI low > 0).",
+      "threshold": "diff>=0.05 and CI low>0"
+    },
+    {
+      "id": "B1",
+      "text": "Empty vs not-empty accuracy >= 0.85.",
+      "threshold": "acc>=0.85"
+    },
+    {
+      "id": "B2",
+      "text": "Four-class accuracy beats the majority-class rate of the sample and macro-F1 >= 0.40.",
+      "threshold": "acc>majority and macroF1>=0.40"
+    },
+    {
+      "id": "B3",
+      "text": "The local fine-tuned model has higher macro-F1 than Jev on the same bins (paired CI low > 0).",
+      "threshold": "diff>0 and CI low>0"
+    },
+    {
+      "id": "T1",
+      "text": "Reliability and speed: >= 98 percent of calls return a valid answer, latency p50 <= 5 s and p95 <= 15 s.",
+      "threshold": "valid>=0.98, p50<=5, p95<=15"
+    }
+  ]
+}
